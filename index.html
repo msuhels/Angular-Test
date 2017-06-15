@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>Upload</title>
+    
+    <!-- VENDOR STYLES -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap-3.3.6.min.css">
+
+    <!-- APP STYLES -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Upload</h3>
+          <!-- DIRECTIVE IN ACTION  -->
+          <uploadfile id="fileupload" wistiapass="9ab835f4d862d74d92f5141684d8f4855e6452f7c6c6fcf2a052fd6395257506" />
+        </div>
+      </div>
+    </div>
+
+    <!-- VENDOR LIBRARIES -->
+    <script src="vendor/jquery/jquery-1.11.3.min.js"></script>
+    <script src="vendor/blueimp/jquery.ui.widget.js"></script>
+    <script src="vendor/blueimp/jquery.iframe-transport.js"></script>
+    <script src="vendor/blueimp/jquery.fileupload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="vendor/bootstrap/bootstrap-3.3.6.min.js"></script>
+
+    <!-- APP LIBRARIES -->
+    <script src="app.js"></script>
+    <script src="uploadComponent.js"></script>
+  </body> 
+</html>
